@@ -1,0 +1,36 @@
+/* Reset básico e estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+button {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input, select, textarea {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
